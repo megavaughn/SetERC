@@ -1,5 +1,5 @@
 # SetERC
-Minimal shell and service scripts to enable ERC on all available block devices at system bootup in Linux
+Minimal shell and service scripts to enable ERC on all available disk drives at system bootup in Linux
 
 ## Installation
 
