@@ -9,7 +9,7 @@ Minimal shell and service scripts to enable ERC on all available disk drives at 
 4. Make sure permissions are set before rebooting:
 5. chmod 744 /opt/scripts/set_erc_alldrives.sh
 6. chmod 664 /etc/systemd/system/set_erc_alldrives.service
-7. Add it to systemctl
+7. Now add it to systemctl:
 8. systemctl daemon-reload
 9. systemctl enable set_erc_alldrives.service
 10. Reboot!
