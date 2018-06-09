@@ -5,7 +5,7 @@ Minimal shell and service scripts to enable ERC on all available disk drives at 
 
 1. Place set_erc_alldrives.sh somewhere that won't get affected by system updates. /opt/scripts is a great option.
 2. Place set_erc_alldrives.service in /etc/systemd/system/
-3. Edit the Service section of set_erc.alldrives.service to properly point to where you stored set_erc.alldrives.sh
+3. Edit the Service section of set_erc_alldrives.service to properly point to where you stored set_erc_alldrives.sh
 4. Make sure permissions are set before rebooting:
 5. chmod 744 /opt/scripts/set_erc_alldrives.sh
 6. chmod 664 /etc/systemd/system/set_erc_alldrives.service
