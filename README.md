@@ -13,3 +13,6 @@ Minimal shell and service scripts to enable ERC on all available block devices a
 8. systemctl daemon-reload
 9. systemctl enable set_erc_alldrives.service
 10. Reboot!
+
+## Notes
+Tested with Ubuntu Server 16.04 LTS but should work with any Debian-based Linux system.
