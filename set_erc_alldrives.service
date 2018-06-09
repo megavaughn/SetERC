@@ -1,0 +1,8 @@
+[Unit]
+Description=Enables the ERC of all disks present in system, if they support it
+
+[Service]
+ExecStart=/opt/scripts/set_erc_alldrives.sh
+
+[Install]
+WantedBy=default.target
