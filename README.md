@@ -15,4 +15,4 @@ Minimal shell and service scripts to enable ERC on all available block devices a
 10. Reboot!
 
 ## Notes
-Tested with Ubuntu Server 16.04 LTS but should work with any Debian-based Linux system.
+Tested with Ubuntu Server 16.4 LTS but should work with any Debian-based Linux system.
